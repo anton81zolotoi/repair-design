@@ -328,10 +328,12 @@ template {
   .button--primary {
     background-color: #E3B873;
     color: #ffffff;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    transform: box-shadow 0.4s; }
+    box-shadow: 0px 10px 25px rgba(227, 184, 115, 0.7);
+    transition: box-shadow 0.4s; }
     .button--primary:hover {
       box-shadow: none; }
+    .button--primary:focus {
+      outline: none; }
   .button--outline {
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -346,13 +348,13 @@ template {
   box-sizing: border-box; }
 
 body {
-  font-family: Futura Book,sans-serif;
+  font-family: Futura Book, sans-serif;
   font-size: 14px; }
 
 .section-title {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Yeseva One'; }
+  font-family: 'Yeseva One', cursive; }
   .section-title__img {
     display: flex;
     justify-content: center;
