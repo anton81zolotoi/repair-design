@@ -339,7 +339,10 @@ template {
   .button--outline {
     border: 1px solid #ffffff;
     background-color: transparent;
-    color: #ffffff; }
+    color: #ffffff;
+    transition: 0.4s; }
+    .button--outline:hover {
+      background-color: #bd9555; }
 
 .container {
   width: 85%;
